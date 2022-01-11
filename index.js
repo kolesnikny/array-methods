@@ -29,15 +29,17 @@ arrayUnshift.unshift(7, 8, 9);
 
 const arrayShift = ['aaa', 'bbb', 'ccc'];
 
-console.log(arrayShift.shift());
-// console.log(arrayShift);
+const firstElement = arrayShift.shift();
+
+//console.log(firstElement);
+//console.log(arrayShift);
 
 /*6. Дан массив ['ddd', 'fff', 'eee']. Выведите последний элемент на экран.*/
 
-const arrayPop = ['aaa', 'bbb', 'ccc'];
+const arrayLast = ['ddd', 'fff', 'eee'];
+const lastElemnt = arrayLast[arrayLast.length - 1];
 
-//console.log(arrayPop.pop());
-//console.log(arrayPop);
+//console.log(lastElemnt);
 
 /*7. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый массив элементы с третьего по пятый.*/
 

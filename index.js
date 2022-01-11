@@ -42,8 +42,15 @@ const lastElemnt = arrayLast[arrayLast.length - 1];
 //console.log(lastElemnt);
 
 /*7. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый массив элементы с третьего по пятый.*/
+const array = [1, 2, 3, 4, 5];
+
+const arraySlice1 = array.slice(2, 4);
+//console.log(arraySlice1);
 
 /*8. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый массив элементы со второго по четвертый.*/
+
+const arraySlice2 = array.slice(1, 3);
+console.log(arraySlice2);
 
 /*9. С помощью метода splice из массива [1, 2, 3, 4, 5] сделайте массив [1, 4, 5]*/
 

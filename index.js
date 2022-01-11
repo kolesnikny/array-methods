@@ -50,11 +50,18 @@ const arraySlice1 = array.slice(2, 4);
 /*8. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый массив элементы со второго по четвертый.*/
 
 const arraySlice2 = array.slice(1, 3);
-console.log(arraySlice2);
+//console.log(arraySlice2);
 
 /*9. С помощью метода splice из массива [1, 2, 3, 4, 5] сделайте массив [1, 4, 5]*/
 
+const arrayChange = array.slice();
+arrayChange.splice(1, 2);
+//console.log(arrayChange);
+
 /*10. С помощью метода splice из массива [1, 2, 3, 4, 5] запишите в новый массив элементы [2, 3, 4].*/
+const arrayOrigin = array.slice();
+const arrayReturnedSplice = arrayOrigin.splice(1, 3);
+//console.log(arrayReturnedSplice);
 
 /*11. С помощью метода splice из массива [1, 2, 3, 4, 5] сделайте массив [1, 'w', 'tr', 2, 3, 4, 'vv', 5, 'a']*/
 

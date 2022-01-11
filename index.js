@@ -1,4 +1,9 @@
 /*1. Даны два массива - [1, 2, 3] и [4, 5, 6]. Объедините их вместе (concat)*/
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+const arrayConcat = array1.concat(array2);
+console.log(arrayConcat);
 
 /*2. Дан массив [1, 2, 3]. Сделайте из него массив [3, 2, 1](reverse).*/
 

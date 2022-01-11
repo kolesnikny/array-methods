@@ -64,5 +64,15 @@ const arrayReturnedSplice = arrayOrigin.splice(1, 3);
 //console.log(arrayReturnedSplice);
 
 /*11. С помощью метода splice из массива [1, 2, 3, 4, 5] сделайте массив [1, 'w', 'tr', 2, 3, 4, 'vv', 5, 'a']*/
+const arraySplice = array.slice();
+
+arraySplice.splice(1, 0, 'w', 'tr');
+arraySplice.splice(-1, 0, 'vv');
+arraySplice.splice(arraySplice.length, 0, 'a');
+console.log(arraySplice);
 
 /*12. Дан массив [5, 8, 2, 4, 7, 1]. Отсортируйте его по возрастанию.*/
+const arraySort = [5, 8, 2, 4, 7, 1];
+//console.log(arraySort);
+arraySort.sort();
+//console.log(arraySort);
